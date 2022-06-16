@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  color: #252525;
+  background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+  height: 100vh;
+}
+
+button {
+  font: inherit;
+  cursor: pointer;
+  background-color: #ff5454;
+  border: 1px solid #ff5454;
+  color: white;
+  padding: 0.5rem 1.5rem;
+  border-radius: 6px;
+}
+
+button:hover,
+button:active {
+  background-color: #d64141;
+  border-color: #d64141;
+}
